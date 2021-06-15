@@ -1,0 +1,7 @@
+{
+  "name": "MobileCovid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
