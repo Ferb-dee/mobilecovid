@@ -11,6 +11,8 @@
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
    font-family: Arial, Helvetica, sans-serif;
+   font-size: 9px;
+   font-weight: normal;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -81,9 +83,10 @@
     line-height: 100px;
     height: 100%;
     padding-left: 135px;
-    background: url("../assets/images/Logo.png") no-repeat left center;
-
-
+   background: url("../assets/images/cdc-Logo.png") no-repeat left center;
+  }
+  ion-header{
+    background-color: blue !important;
   }
 
 

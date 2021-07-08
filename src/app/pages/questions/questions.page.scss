@@ -1,0 +1,46 @@
+ion-card-header{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background: #1d6800;
+  color: #fdfafa;
+}
+
+ion-toggle{
+  color: rgb(247, 247, 247);
+}
+ion-card{
+  border-color: #1d6800;
+}
+ion-toggle {
+  width: 100px;
+  margin-bottom: 9px;
+  position: relative;
+   font-size: 15px;
+  line-height: 35px;
+
+  --background: #92949c;
+  --background-checked: #556ee6;
+
+  --handle-background: #ffffff;
+  --handle-background-checked: #ffffff;
+}
+
+ion-toggle[aria-checked="false"]{
+
+ &::after {
+  position: absolute;
+  content: "No";
+  top: 0;
+  right: 6px;
+ }
+}
+
+ion-toggle[aria-checked="true"]{
+
+&::after {
+  position: absolute;
+  content: "Yes";
+  top: 0;
+  left: 6px;
+}
+}
